@@ -15,8 +15,7 @@ if (Array.isArray(array)) {
 document.querySelector("#btn").addEventListener("click", (e) => {
     e.preventDefault();
     myarray.push(...userInput.value.split(",").map(s => s.trim()));
-
-
+    
 });
 
 // Fisher-Yates Shuffle Algorithm From Wiki//
