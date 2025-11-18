@@ -1,16 +1,13 @@
 //Script to shuffle songs in playlist page//
 //Array element to hold songs//
-const array = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
-      userInput = document.querySelector("#users");
-//Display array elements in list//
-
-if (Array.isArray(array)) {
-    // use join for a controlled separator, or JSON for nested/object values
-    document.getElementById("demo").textContent = array;
-} else if (array == null) {
-    document.getElementById("demo").textContent = "";
-}
-
+document.getElementById('add-btn').addEventListener('click', function() {
+        const newTodo = document.getElementById('new-todo').value;
+        if (newTodo.trim() === '') return;
+        const li = document.createElement('li');
+        li.textContent = newTodo;
+        document.getElementById('todo-list').appendChild(li);
+        document.getElementById('new-todo').value = '';
+      });
 //Event listener to add names to array//
 document.querySelector("#btn").addEventListener("click", (e) => {
     e.preventDefault();
