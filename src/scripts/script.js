@@ -15,7 +15,6 @@ document.getElementById("addMusic").addEventListener("click", function() {
 // Function to render the list from the array
 function renderList() {
 const listElement = document.getElementById("list");
-listElement.innerHTML = ""; // Clear existing items
 const fragment = document.createDocumentFragment();
 array.forEach(item => {
     const li = document.createElement("li");
