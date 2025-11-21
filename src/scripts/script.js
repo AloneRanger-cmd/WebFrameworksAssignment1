@@ -1,19 +1,31 @@
 //Array and list js file//
 let array= ["1", "2", "3", "4", "5"];
+
 // Add new item to the list//
 document.getElementById("addMusic").addEventListener("click", function() {
     const input = document.getElementById("musicInput");
     const newItem = input.value.trim();
     if (newItem !== "") {
-        const listElement = document.getElementById("list");
-        const li = document.createElement("li");
-        li.textContent = newItem;
-        listElement.appendChild(li);
+        array.push(newItem); // Add to array as well
+        renderList();
         input.value = "";
     }
 });
-//listing original array//
-document.getElementById("list").innerHTML = array.map(item => `<li>${item}</li>`).join("");
+
+// Function to render the list from the array
+function renderList() {
+const listElement = document.getElementById("list");
+listElement.innerHTML = ""; // Clear existing items
+const fragment = document.createDocumentFragment();
+array.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    fragment.appendChild(li);
+});
+listElement.appendChild(fragment);
+    listElement.innerHTML = array.map(item => `<li>${item}</li>`).join("");
+}
+
 // Fisher-Yates Shuffle Algorithm From Wiki//
 function shuffleArray(array) {
     for (let i = array.length - 1; i >= 1; i--) {
@@ -22,6 +34,7 @@ function shuffleArray(array) {
     }
     return array;
 }
+
 // Shuffle button functionality//
 document.getElementById("shuffleButton").addEventListener("click", function() {
     const shuffledArray = shuffleArray(array.slice());
