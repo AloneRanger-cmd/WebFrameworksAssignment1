@@ -26,6 +26,7 @@ header {
         border: #0D0A0B 2px solid;
     }
     a {
+        text-align: center;
         text-decoration: none;
         color: black;
     }
