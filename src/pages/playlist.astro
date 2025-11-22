@@ -8,8 +8,7 @@ import Footer from "../components/footer.astro";
     <head>
         <title>Burak Atak 3199405</title>
         <meta lang="en">  
-        <script src="shuffle.js" defer></script>
-        <script src="array.js" defer></script>
+        <script src="../src/scripts/script.js" defer></script>
     </head>
     <body>
         <Header />
@@ -19,7 +18,20 @@ import Footer from "../components/footer.astro";
             <h1>Dynamic List</h1>
             <input type="text" id="musicInput" placeholder="Enter Music">
             <button id="addMusic">Add Music</button>
-            <ul id="list"></ul><!--add an exixting list so that javascript can pull and push information -->
+            <ul id="myList"></ul>
+            <div id="preList" hidden>
+                <ul>
+                    <li class="list">Song 1</li>
+                    <li class="list">Song 2</li>
+                    <li class="list">Song 3</li>
+                    <li class="list">Song 4</li>
+                    <li class="list">Song 5</li>
+                    <li class="list">Song 6</li>
+                </ul>
+            </div>
+            
+            <p id="demo"></p>
+
             <button id="shufflebtn" class="btn">Shuffle Names</button>
 		</main>
 <!--End of Main Area -->
