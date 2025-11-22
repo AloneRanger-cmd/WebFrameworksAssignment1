@@ -1,5 +1,6 @@
-//Array and list js file//
-// Get all list items with class="list"html present web hidden//
+// Script for Dynamic Playlist with Shuffle Functionality//
+
+// Get all list items with class="list" html present-web hidden//
 let list = document.getElementsByClassName("list");
 
 // Create an array from the list items, so that it doesn't return "[object HTMLLIElement]"//
@@ -23,11 +24,7 @@ document.getElementById("addMusic").addEventListener("click", function() {
     }
 });
 
-// Display the first paragraph with class="intro"//
-document.getElementById("demo").innerHTML = 
-'The first item on the list (index 0) with class="list" is: ' + list[0].innerHTML;
-
-// Pre Render//
+// Pre Render, This is the first order of the list on page reload//
 let data = array;
         let asd = document.getElementById("myList");
         for (i = 0; i < data.length; ++i) {
