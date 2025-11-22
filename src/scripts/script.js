@@ -2,7 +2,7 @@
 // Get all list items with class="list"html present web hidden//
 let list = document.getElementsByClassName("list");
 
-// Create an array from the list items//
+// Create an array from the list items, so that it doesn't return "[object HTMLLIElement]"//
 const array = [];
 
 // Populate the array with list item contents//
