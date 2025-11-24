@@ -18,18 +18,18 @@ document.getElementById("addMusic").addEventListener("click", function() {
         array.push(musicInput);
         let li = document.createElement('li');
         li.innerText = musicInput;
-        document.getElementById("myList").appendChild(li);
+        document.getElementById("newList").appendChild(li);
         // Clear input field//
         document.getElementById("musicInput").value = "";
     }
 });
 
 // Pre Render, This is the first order of the list on page reload//
-let data = array;
-        let asd = document.getElementById("myList");
-        for (i = 0; i < data.length; ++i) {
+let newList = array;
+        let asd = document.getElementById("newList");
+        for (i = 0; i < newList.length; ++i) {
             let li = document.createElement('li');
-            li.innerText = data[i];
+            li.innerText = newList[i];
             asd.appendChild(li);
         }
 
@@ -41,16 +41,16 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
     // Update the displayed list after shuffling//
-    let data = array;
-        let content = document.getElementById("myList");
+    let newList = array;
+        let content = document.getElementById("newList");
         // Remove previous list items to avoid duplicates//
         while (content.firstChild) {
         content.removeChild(asd.firstChild);
     }
         // Render shuffled list//
-        for (i = 0; i < data.length; ++i) {
+        for (i = 0; i < newList.length; ++i) {
             let li = document.createElement('li');
-            li.innerText = data[i];
+            li.innerText = newList[i];
             content.appendChild(li);
         }
     return array;
@@ -58,6 +58,6 @@ function shuffleArray(array) {
 
 // Shuffle button event listener//
 document.getElementById("shufflebtn").addEventListener("click", function() {
-    shuffleArray(data);
-    console.log(data);
+    shuffleArray(newList);
+    console.log(newList);
 });
