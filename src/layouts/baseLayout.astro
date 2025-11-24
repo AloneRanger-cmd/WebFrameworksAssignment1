@@ -1,0 +1,23 @@
+---
+import Navigation from "../components/navigation.astro";
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
+const { title } = Astro.props;
+---
+<html>
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <head>
+        <Header title={title}/>
+        <metal lang="en">
+    </head>
+    <body>
+        <Navigation />
+<!--Main Area Only Thing That Changes Between Pages -->
+		<main>
+            <h1>{title}</h1>
+            <slot />
+		</main>
+<!--End of Main Area -->
+        <Footer />
+    </body>
+</html>

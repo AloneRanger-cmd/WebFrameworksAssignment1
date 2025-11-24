@@ -61,4 +61,3 @@ document.getElementById("shufflebtn").addEventListener("click", function() {
     shuffleArray(data);
     console.log(data);
 });
-

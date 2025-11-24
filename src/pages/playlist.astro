@@ -1,39 +1,25 @@
 ---
-import Navigation from "../components/navigation.astro";
-import Header from "../components/header.astro";
-import Footer from "../components/footer.astro";
+import BaseLayout from "../layouts/baseLayout.astro";
 ---
-<html> 
-    <link rel="stylesheet" href="../src/styles/style.css">
-    <head>
-        <title>Burak Atak 3199405</title>
-        <meta lang="en">  
-        <script src="../src/scripts/script.js" defer></script>
-    </head>
-    <body>
-        <Header />
-        <Navigation />
-<!--Main Area Only Thing That Changes Between Pages -->
-		<main>
-            <h1>Play List</h1>
-            <input type="text" id="musicInput" placeholder="Enter Music">
-            <button id="addMusic">Add Music</button>
-            <!--Actual List Shuffled -->
-            <ul id="myList"></ul>
-            <!--Hidden List to Shuffle From-->
-            <div hidden>
-                <ul>
-                    <li class="list">Song 1</li>
-                    <li class="list">Song 2</li>
-                    <li class="list">Song 3</li>
-                    <li class="list">Song 4</li>
-                    <li class="list">Song 5</li>
-                    <li class="list">Song 6</li>
-                </ul>
-            </div>
-            <button id="shufflebtn" class="btn">Shuffle Songs</button>
-		</main>
-<!--End of Main Area -->
-        <Footer />
-    </body>
-</html>
+
+<BaseLayout title="Playlist Page">
+
+    <script src="../src/scripts/playlist.js" defer></script>
+    <input type="text" id="musicInput" placeholder="Enter Music">
+    <button id="addMusic">Add Music</button>
+    <!--Actual List Shuffled -->
+    <ul id="myList"></ul>
+    <!--Hidden List to Shuffle From-->
+    <div hidden>
+        <ul>
+            <li class="list">Song 1</li>
+            <li class="list">Song 2</li>
+            <li class="list">Song 3</li>
+            <li class="list">Song 4</li>
+            <li class="list">Song 5</li>
+            <li class="list">Song 6</li>
+        </ul>
+    </div>
+    <button id="shufflebtn" class="btn">Shuffle Songs</button>
+
+</BaseLayout>
