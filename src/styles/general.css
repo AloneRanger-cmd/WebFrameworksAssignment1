@@ -1,0 +1,106 @@
+/*CSS for Assigment 1*/
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0%;
+  min-height: 100dvh;
+  background-color: #fafcfe;
+}
+/*Header area with image*/
+header {
+    display: flex;
+    padding-left : 2rem;
+    padding-right : 2rem;
+    padding-top : 1rem;
+    padding-bottom : 1rem;
+    background-color: #255dd3;
+    color: black;
+    font-style: italic;
+    text-wrap: nowrap;
+    justify-content: space-between;
+    img {
+        width: 6rem;
+        height: auto;
+        border-radius: 1rem;
+        margin-left: auto;
+        border: #0D0A0B 2px solid;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+}
+/*Navigation Area*/
+nav {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    border-bottom: #e7edf3 2px solid;
+    border-top: #e7edf3 2px solid;
+    background-color: white;   ;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #D36582;
+    }
+    li {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
+/*main area general*/
+main {
+    padding : 2rem;
+    border-bottom: #0D0A0B 2px solid;
+    background-color: #fafcfe;
+    a:link {
+        text-decoration: none;
+        color: #002830;
+    }
+    a:hover {
+        color: #006E8A;
+        text-decoration: underline;
+    }
+    img {
+        width: auto;
+        height: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+        margin: none;
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+/*Footer area with griffith logo and student name/number*/
+footer {
+    text-align: center;
+    background-color: #061F61;
+    color: black;
+    padding: 1rem;
+    a {
+        color: black;
+    }
+}
+/*Griffith Colloge Logo*/
+div.gclink {
+    img {
+        width: 14rem;
+        height: auto;
+    }
+}
+
+/*general pictures*/
+div.picture {
+    img {
+        width: 10rem;
+        height: auto;
+        border: #454955 2px solid;
+        margin-right: 2rem;
+    }
+}
