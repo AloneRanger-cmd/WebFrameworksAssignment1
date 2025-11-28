@@ -1,0 +1,16 @@
+---
+import postLayout from "../layouts/postLayout.astro";
+---
+
+<postLayout title={Astro.props.title}>
+<article>
+    <h2>{Astro.props.title}</h2>
+    <p><strong>Date:</strong> {Astro.props.date}</p>
+    <p><strong>Author:</strong> {Astro.props.author}</p>
+    <section>
+        <p>This is the content of my first blog post. I'm excited to share my thoughts and experiences with you!</p>
+        <p>Stay tuned for more updates and interesting articles.</p>
+    </section>
+</article>
+
+</postLayout>
