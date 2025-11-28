@@ -1,9 +1,10 @@
 ---
-import: "../layouts/postLayout.astro"
-title: "Mytitle"
-author: "Test"
-Description: "Test"
-Date: "--.--.----"
+import: ../layouts/postLayout.astro
+
+title: Mytitle
+author: Test
+Description: Test
+Date: --.--.----
 
 ---
 
