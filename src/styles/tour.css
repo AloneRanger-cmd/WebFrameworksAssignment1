@@ -10,5 +10,9 @@ div.postsList {
         border: black 2px solid;
         padding: 1rem;
         border-radius: 1rem;
+        background-color: #e7edf3;
+    }
+    a:hover{
+        text-decoration: none;
     }
 }
