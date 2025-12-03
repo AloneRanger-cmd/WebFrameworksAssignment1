@@ -1,4 +1,4 @@
-/*CSS File for the Tor Page*/
+/*CSS File for the Tour Page*/
 
 div.postsList {
     display: flex;
@@ -11,5 +11,4 @@ div.postsList {
         padding: 1rem;
         border-radius: 1rem;
     }
-
 }

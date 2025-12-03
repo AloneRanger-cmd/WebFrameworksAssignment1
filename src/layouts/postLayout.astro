@@ -4,6 +4,7 @@ const { frontmatter } = Astro.props;
 ---
 <head>
     <title>{frontmatter.title}</title>
+    <link rel="stylesheet" href="../src/styles/post.css">
 </head>
 <BaseLayout pageTitle={frontmatter.title}>
 
