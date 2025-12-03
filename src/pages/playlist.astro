@@ -7,12 +7,16 @@ import BaseLayout from "../layouts/baseLayout.astro";
     <script is:inline src="../src/scripts/playlist.js" defer></script>
     
     <div id="musicContainer">
-        <input type="text" id="musicInput" placeholder="Enter Music">
-        <button id="addMusic">Add Music</button>
+        <div class="input">
+            <input type="text" id="musicInput" placeholder="Enter Music">
+            <button id="addMusic">Add Music</button>
+            <button id="shufflebtn" class="btn">Shuffle Songs</button>
+        </div>
         <!--Actual List Shuffled -->
         <ul id="newList"></ul>
-        <!--Hidden List to Shuffle From-->
-        <div hidden>
+    </div>
+    <!--Hidden List to Shuffle From-->
+    <div hidden>
             <ul>
                 <li class="list">Song 1</li>
                 <li class="list">Song 2</li>
@@ -22,6 +26,4 @@ import BaseLayout from "../layouts/baseLayout.astro";
                 <li class="list">Song 6</li>
             </ul>
         </div>
-        <button id="shufflebtn" class="btn">Shuffle Songs</button>
-    </div>
 </BaseLayout>
