@@ -3,7 +3,7 @@ layout: ..\layouts\postLayout.astro
 
 title: Mytitle
 author: Burak Atak
-description: Test 1
+description: Test 2
 date: --.--.2025
 
 ---
