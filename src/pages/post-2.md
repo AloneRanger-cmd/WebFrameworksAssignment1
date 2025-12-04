@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/postLayout.astro
+layout: ..\layouts\postLayout.astro
 
 title: Mytitle
 author: Burak Atak
