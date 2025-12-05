@@ -5,8 +5,8 @@ title: My Favourite Song FCKD
 author: Burak Atak
 description: In this post I will be talking about one of my favourite Song from Hyper FCKD
 date: 03.12.2025
-image: ..\Images\cyberpunk.jpg
 
+image: ..\Images\HyperWeControl.jpg
 ---
 
 # FCKD

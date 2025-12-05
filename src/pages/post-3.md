@@ -5,7 +5,7 @@ title: Mytitle
 author: Burak Atak
 description: Test 3
 date: --.--.2025
-
+image: ..\Images\pray.jpg
 ---
 
 # Test 1
