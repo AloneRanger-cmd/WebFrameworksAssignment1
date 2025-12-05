@@ -15,5 +15,6 @@ div.image{
         width: 15rem;
         height: auto;
         border: #0D0A0B 2px solid;
+        border-radius: 0.2rem;
     }
 }

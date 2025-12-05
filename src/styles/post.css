@@ -13,11 +13,12 @@ div.articleSection {
         height: auto;
         margin-left: auto;
         border: #0D0A0B 2px solid;
+        border-radius: 0.2rem;
     }
 }
 article {
     p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #0D0A0B;
     }
 }

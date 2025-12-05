@@ -8,8 +8,13 @@ date: 05.12.2025
 image: ..\Images\cyberpunk.jpg
 ---
 
-# Test 1
-## Test 2
+# Welcome to My First Blog Post
+## In this post I will talk about one of favourite albums
 
-
-Testing the new markdown writing style
+Hello  one of my favourite albums is from DJ Hyper Cyberpunk EP.
+This album contains four songs.
+In order of plays from Spotify;
+FCKD,
+Flatline,
+New Wave,
+Drive,
