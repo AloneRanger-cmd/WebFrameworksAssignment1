@@ -8,7 +8,7 @@ div.postsList {
         color: #255dd3;
         border: black 2px solid;
         padding: 1rem;
-        border-radius: 1rem;
+        border-radius: 0.2rem;
         background-color: #e7edf3;
     }
     a:hover{
