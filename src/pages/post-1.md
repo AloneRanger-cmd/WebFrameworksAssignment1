@@ -1,10 +1,10 @@
 ---
 layout: ..\layouts\postLayout.astro
 
-title: Mytitle
+title: Album Cyberpunk EP
 author: Burak Atak
-description: Test 1
-date: --.--.2025
+description: Here some information about the "Album Cyberpunk EP"
+date: 05.12.2025
 image: ..\Images\cyberpunk.jpg
 ---
 

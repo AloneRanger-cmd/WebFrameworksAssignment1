@@ -1,12 +1,16 @@
 ---
 import BaseLayout from "../layouts/baseLayout.astro";
+const { frontmatter } = Astro.props;
 ---
 <link rel="stylesheet" href="../src/styles/tour.css">
 <BaseLayout title="Tour Page">
     <p>Explore my latest blog posts:</p>
     <div class="postsList">
-        <a href="/post-1">Post 1</a>
-        <a href="/post-2">Post 2</a>
-        <a href="/post-3">Post 3</a>
+        <div class="postItem1">
+        <a href="/post-1">Cyberpunk EP</a></div>
+        <div class="postItem2">
+        <a href="/post-2">Post 2</a></div>
+        <div class="postItem3">
+        <a href="/post-3">Post 3</a></div>
     </div>
 </BaseLayout>
