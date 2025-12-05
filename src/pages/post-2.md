@@ -1,5 +1,5 @@
 ---
-layout: ..\layouts\postLayout.astro
+layout: ../layouts/postLayout.astro
 
 title: My Favourite Song FCKD
 author: Burak Atak
