@@ -7,17 +7,16 @@ const { frontmatter } = Astro.props;
     <link rel="stylesheet" href="../src/styles/post.css">
 </head>
 <BaseLayout pageTitle={frontmatter.title}>
-
-<article>
-    <h1>{frontmatter.title}</h1>
-    <p><em>By {frontmatter.author}</em></p>
-    <p>{frontmatter.date}</p>
-    <p>{frontmatter.description}</p>
-    <slot />
-</article>
-
-
-
-
-
+<div class="articleSection">
+    <article>
+        <h1>{frontmatter.title}</h1>
+        <p><em>By {frontmatter.author}</em></p>
+        <p>{frontmatter.date}</p>
+        <p>{frontmatter.description}</p>
+        <slot />
+    </article>
+    <div class="artist">
+        <p><img src={frontmatter.image} alt="Picture"></p>
+    </div>
+</div>
 </BaseLayout>

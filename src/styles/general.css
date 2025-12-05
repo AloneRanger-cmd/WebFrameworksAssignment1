@@ -39,7 +39,7 @@ nav {
     font-size: 1rem;
     border-bottom: #e7edf3 2px solid;
     border-top: #e7edf3 2px solid;
-    background-color: white;   ;
+    background-color: white;
     a {
         color: black;
         text-decoration: none;
@@ -58,25 +58,6 @@ main {
     border-bottom: #0D0A0B 2px solid;
     background-color: #fafcfe;
     align-items: center;
-    a:link {
-        text-decoration: none;
-        color: #002830;
-    }
-    a:hover {
-        color: #006E8A;
-        text-decoration: underline;
-    }
-    img {
-        width: auto;
-        height: 3rem;
-    }
-    h2 {
-        margin: none;
-        a {
-            color: black;
-            text-decoration: none;
-        }
-    }
 }
 /*Footer area with griffith logo and student name/number*/
 footer {

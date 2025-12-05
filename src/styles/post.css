@@ -1,10 +1,21 @@
 /*CSS File For Posts*/
-article {
+div.articleSection {
+    display: flex;
+    align-items: center;
     margin: 2rem;
     padding: 2rem;
     border: #0D0A0B 2px solid;
     border-radius: 1rem;
     background-color: #e7edf3;
+    justify-content: space-between;
+    img{
+        width: 15rem;
+        height: auto;
+        margin-left: auto;
+        border: #0D0A0B 2px solid;
+    }
+}
+article {
     p{
         font-size: 1.2rem;
         color: #0D0A0B;
