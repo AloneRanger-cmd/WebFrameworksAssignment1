@@ -1,15 +1,17 @@
 ---
 layout: ..\layouts\postLayout.astro
 
-title: Mytitle
+title: My Favourite Song FCKD
 author: Burak Atak
-description: Test 2
-date: --.--.2025
+description: In this post I will be talking about one of my favourite Song from Hyper FCKD
+date: 03.12.2025
+image: ..\Images\cyberpunk.jpg
 
 ---
 
-# Test 1
-## Test 2
+# FCKD
+## In this post I will talk about one of favourite Songs
 
-
-Testing the new markdown writing style
+FCKD is one of my favourite songs I discovered this song couple of years ago.
+I mostly listen this song while driving.
+This song gets me hyped up 

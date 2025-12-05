@@ -4,7 +4,7 @@ layout: ..\layouts\postLayout.astro
 title: Album Cyberpunk EP
 author: Burak Atak
 description: Here some information about the "Album Cyberpunk EP"
-date: 05.12.2025
+date: 03.12.2025
 image: ..\Images\cyberpunk.jpg
 ---
 
